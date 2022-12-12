@@ -1,2 +1,0 @@
-// necesita tailwind
-// menu hamburgeza

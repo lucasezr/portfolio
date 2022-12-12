@@ -6,7 +6,7 @@ const About = () => {
     <>
       <div>
         <div>
-          <div>
+          <div class=" bg-lime-300">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
             mollitia, molestiae quas vel sint commodi repudiandae consequuntur
             voluptatum laborum numquam blanditiis harum quisquam eius sed odit
@@ -23,8 +23,8 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="btns-cv">
-        <a className="btn-download" href="./LucasRodriguez_cv.pdf" download>
+      <div class=" w-60 h-10 bg-blue-300 rounded-2xl text-center">
+        <a class="" href="./LucasRodriguez_cv.pdf" download>
           Descargar Curriculum
         </a>
       </div>
