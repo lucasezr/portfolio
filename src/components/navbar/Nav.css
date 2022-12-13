@@ -1,6 +1,6 @@
 
 .navbar {
-    background-color: #ff8d01;
+    background: #ff8d01;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,9 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        /* height:webkit-fill-avalible ; */
+        /* height: 100%; ocupa todo el largo de la pantalla */
+        height: -webkit-fill-avalible ;
+        transform: translateX(-100%);
         transition: 0.3s ease all;
     }
 

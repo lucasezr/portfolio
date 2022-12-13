@@ -11,9 +11,11 @@ const Navbar = () => {
     <div className="navbar">
       <div className="nav_logo">Portfolio </div>
       <div className={`nav_items ${isOpen && "open"}`}>
-        <a href="#">About me</a>
+        <a href="#">Home</a>
+        <a href="#">Sobre mi</a>
         <a href="#">Proyectos</a>
-        <a href="#">Estudios</a>
+        <a href="#">Educacion</a>
+        <a href="#">Jugar</a>
         <a href="#">Contactame</a>
       </div>
       <div

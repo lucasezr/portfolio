@@ -2,8 +2,8 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import Nav from "../../components/navbar/Nav";
 import Name from "../../components/Name";
-import About from "../About";
-import Projects from "../Projects";
+import About from "../about/About";
+import Projects from "../projects/Projects";
 
 export default function home() {
   return (

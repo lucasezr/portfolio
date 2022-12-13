@@ -3,10 +3,10 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./components/navbar/Nav";
 import Home from "./pages/home/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Certificates from "./pages/Certificates";
-import contactForm from "./pages/Contact_Form";
+import About from "./pages/about/About";
+import Projects from "./pages/projects/Projects";
+import Certificates from "./pages/education/Certificates";
+import contactForm from "./pages/contact/Contact_Form";
 
 function App() {
   return (
