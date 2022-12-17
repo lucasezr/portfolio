@@ -6,12 +6,17 @@ import Nav from "../../components/navbar/Nav";
 const About = () => {
   return (
     <>
-      <Nav className="nav" />
-      <div className="bodyy">
-        <article className="bg-img">
+      <div className="body">
+        <article className="bg-info-basic">
           <section>
             <h1>Lucas Rodriguez</h1>
             <h3>Desarrollador web Full Stack</h3>
+            <div className="img-avatar">
+              <img
+                src="https://res.cloudinary.com/dr1n4zzvd/image/upload/v1671308848/peeps-avatar-alpha_aee383.png"
+                alt="avatar image"
+              />
+            </div>
             <p className="">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
               mollitia, molestiae quas vel sint commodi repudiandae consequuntur
@@ -28,12 +33,14 @@ const About = () => {
               Officiis iure rerum voluptates a cumque velit quibusdam sed amet
               tempora.
             </p>
-          </section>
-          <section className="btn-curriculum">
-            <div className="">
-              <a className="" href="./LucasRodriguez_cv.pdf" download>
-                Descargar Curriculum
-              </a>
+            <div className="btn-curriculum">
+              <div className="">
+                <button>
+                  <a className="" href="./LucasRodriguez_cv.pdf" download>
+                    Descargar Curriculum
+                  </a>
+                </button>
+              </div>
             </div>
           </section>
         </article>

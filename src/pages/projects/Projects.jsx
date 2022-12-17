@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Projects() {
   return (
-    <div class=" bg-violet-100 ">
+    <div class="projects">
       <ul class=" bg-red-200 flex flex-row flex-wrap justify-center  ">
         <li class=" bg-green-200 flex-row">
           <a href="https://coffee-street-front-end.vercel.app/" target="_blank">
