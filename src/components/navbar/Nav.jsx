@@ -8,7 +8,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="nav_logo">Portfolio </div>
       <div className={`nav_items ${isOpen && "open"}`}>
         <a href="#">Home</a>
@@ -27,7 +27,7 @@ const Navbar = () => {
         <span> </span>
         <span> </span>
       </div>
-    </div>
+    </nav>
   );
 };
 

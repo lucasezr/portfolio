@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./About.css";
+import Nav from "../../components/navbar/Nav";
 
 const About = () => {
   return (
     <>
+      <Nav className="nav" />
       <div className="bodyy">
         <article className="bg-img">
           <section>

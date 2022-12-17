@@ -1,6 +1,6 @@
 
 .navbar {
-    background: #ff8d01;
+    background: rgba(0, 0, 0, 0);
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -19,6 +19,12 @@
     color: rgb(255, 255, 255);
     position: relative;
     text-decoration: none;
+    
+}
+
+.nav_items a:hover {
+
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 .nav_toggle {
@@ -40,6 +46,7 @@
         transition: 0.3s ease all;
     }
 
+    
     .nav_items.open{
         transform: translateX(0) !important;
     }
@@ -70,4 +77,6 @@
     .nav_toggle.open > span:nth-child(3){
         transform: rotate(-45deg) translate(-5px, 1px);
     }
+
+    
 }

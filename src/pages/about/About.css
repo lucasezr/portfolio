@@ -2,7 +2,11 @@
     background-image: url('../../../public/img/banner-bg.png');
     height: 94.6vh;
     width: 100%;
-    position: relative;
+    
+}
+
+.nav {
+    background:none
 }
 
 h1{
