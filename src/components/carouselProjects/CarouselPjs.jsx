@@ -4,9 +4,9 @@ import "../carouselProjects/carouselPjs.css";
 const CarouselPjs = () => {
   var angle = 0;
   function galleryspin(sign) {
-    const spinner = document.querySelector(".spinner");
+    const spinner = document.getElementsByClassName("spinner")[0];
     if (!sign) {
-      angle = angle - 45;
+      angle = angle + 45;
     } else {
       angle = angle - 45;
     }
@@ -39,14 +39,11 @@ const CarouselPjs = () => {
           ></img>
         </figure>
       </div>
-      <span
-        className="arrow-one"
-        onClick={(event) => galleryspin(event, " - ")}
-      >
+      <span className="arrow-one" onClick={(e) => galleryspin(" - ")}>
         &lt;
       </span>
 
-      <span className="arrow-two" onClick={(event) => galleryspin(event, "")}>
+      <span className="arrow-two" onClick={(event) => galleryspin("")}>
         &gt;
       </span>
     </>
