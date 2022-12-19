@@ -3,6 +3,7 @@ import React from "react";
 import Nav from "../../components/navbar/Nav";
 import About from "../about/About";
 import Projects from "../projects/Projects";
+import CarouselPjs from "../../components/carouselProjects/CarouselPjs";
 
 export default function home() {
   return (
@@ -11,7 +12,7 @@ export default function home() {
         <Nav />
 
         <About />
-        <Projects />
+        <CarouselPjs />
       </main>
     </>
   );

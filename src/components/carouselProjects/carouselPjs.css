@@ -1,6 +1,25 @@
 body{
     background-color: black;
 }
+ 
+
+/* .content div{
+    background-color: aqua;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:840px;
+    right: 160px; 
+} */
+
+a{
+    width: 400px;
+    height: 450px;
+    transform-style:preserve-3d
+}
+
 
 .slider {
     perspective: 1200px;
@@ -20,11 +39,14 @@ body{
     transform-style: preserve-3d;
     height: 300px;
     transform-origin: 50% 50% -500px;
-    transition: 1s;
+    transition: 1.5s;
+    padding:150px 0 0 0;
+    margin-bottom: 150px;
+
 }
 
 .spinner img {
-    height: 300px;
+    height: 420px;
     width: 400px;
     position: absolute;
     left: 35%;
@@ -32,26 +54,51 @@ body{
     outline: 1px solid transparent;
 }
 
-.spinner img:nth-child(1) {transform: rotateY(30deg);}
-.spinner img:nth-child(2) {transform: rotateY(-20deg);}
-.spinner img:nth-child(3) {transform: rotateY(-80deg);}
+.spinner img:nth-child(1) {transform: rotateY(0deg);}
+.spinner img:nth-child(2) {transform: rotateY(-180deg);}
+.spinner img:nth-child(3) {transform: rotateY(-90deg);}
 .spinner img:nth-child(4) {transform: rotateY(-135deg);}
 .spinner img:nth-child(5) {transform: rotateY(-180deg);}
+.spinner img:nth-child(6) {transform: rotateY(-225deg);}
+.spinner img:nth-child(7) {transform: rotateY(-270deg);}
+.spinner img:nth-child(8) {transform: rotateY(-315deg);}
+.spinner img:nth-child(9) {transform: rotateY(-360deg);}
+.spinner img:nth-child(10) {transform: rotateY(-405deg);}
 
 .slider ~ span {
     color:white;
-    margin: 5%;
+    margin:-16rem 20% 0 20%;
     display: inline-block;
     text-decoration: none;
     font-size: 2rem;
     transition: 0.6s color;
     position: relative;
-    margin-top: -6rem;
+    margin-top: -16rem;
     border-bottom: none;
     line-height: 0;
+    
 }
 
 .slider ~ span:hover {
     color: #888;
     cursor: pointer;
+}
+
+.btn-go-projects {
+    position: relative;
+    /* bottom: -2%; */
+    left: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.btn-go-projects button {
+    width: 400px;
+    height: 120px;
+    font-size: 1.9rem;
+    border-radius: 10px;
+    
 }
