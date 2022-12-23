@@ -1,0 +1,37 @@
+ /* .carousel-control-next {
+    background-color: blue;
+    right: 220%;
+    
+} */
+
+
+.carousel-control-next-icon {
+    position: relative;
+    right: 150%;
+}
+
+.carousel-control-prev-icon{
+    position: relative;
+    left:150%;
+    
+    
+} 
+
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+    
+    right: 22%;
+}
+
+.carouselExampleIndicators{
+    margin-top: 100%
+}
+
+.main-div {
+    padding-top: 7%;
+}
+
+.section-education {
+    background-color: rgba(172, 255, 47, 0.485);
+}

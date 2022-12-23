@@ -1,7 +1,6 @@
-body{
-    background-color: black;
+.general-conteiner {
+    background-color: antiquewhite;
 }
- 
 
 /* .content div{
     background-color: aqua;
@@ -42,7 +41,7 @@ a{
     transition: 1.5s;
     padding:150px 0 0 0;
     margin-bottom: 150px;
-
+    
 }
 
 .spinner img {
@@ -66,14 +65,14 @@ a{
 .spinner img:nth-child(10) {transform: rotateY(-405deg);}
 
 .slider ~ span {
-    color:white;
+    color:rgb(0, 0, 0);
     margin:-16rem 20% 0 20%;
     display: inline-block;
     text-decoration: none;
     font-size: 2rem;
     transition: 0.6s color;
     position: relative;
-    margin-top: -16rem;
+    margin-top: -10rem;
     border-bottom: none;
     line-height: 0;
     
@@ -86,8 +85,8 @@ a{
 
 .btn-go-projects {
     position: relative;
-    /* bottom: -2%; */
-    left: 42%;
+    left: 41%;
+    bottom: -100px;
     display: flex;
     justify-content: center;
     align-items: center;
