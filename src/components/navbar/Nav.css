@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
 }
 
 .nav_logo {
@@ -13,6 +14,7 @@
     margin: 15px;
     color: rgb(255, 255, 255);
 }
+
 
 .nav_items a {
     margin: 15px;
@@ -25,6 +27,7 @@
 .nav_items a:hover {
 
     border-bottom: 2px solid rgb(255, 255, 255);
+    color: white;
 }
 
 .nav_toggle {
@@ -32,23 +35,40 @@
 }
 
 @media (max-width: 768px) {
+
+    
     .nav_items {
         position: absolute;
         top:60px;
+        
         left:0;
         background: orange;
         display: flex;
         flex-direction: column;
         width: 100%;
-        /* height: 100%; ocupa todo el largo de la pantalla */
+        /* text-align: center; */
+        align-items: center; 
         height: -webkit-fill-avalible ;
+        min-height: 100vh; 
         transform: translateX(-100%);
         transition: 0.3s ease all;
+        
+        
+        
     }
 
+        .nav_items a { 
+            border: 1px solid black;
+            height: 40px;
+            margin: 50px;
+            
+        }
+
+        
     
     .nav_items.open{
         transform: translateX(0) !important;
+        height: -webkit-fill-avalible;
     }
     .nav_toggle {
         display: flex !important;

@@ -1,5 +1,6 @@
 .general-conteiner {
     background-color: antiquewhite;
+    z-index: 300;
 }
 
 /* .content div{
