@@ -6,13 +6,31 @@ const skills = () => {
     <section className="section-skills">
       <div className="conteiner">
         <article>
-          <div className="back"></div>
+          <div className="back">
+            <span>Back-End</span>
+            <div className="Nodejs"></div>
+            <div className="Express"></div>
+          </div>
         </article>
         <article>
-          <div className="front"></div>
+          <div className="front">
+            <span> Front-End</span>
+            <div className="Reactjs"></div>
+            <div className="Redux"></div>
+            <div className="CSS"></div>
+            <div className="HTML"></div>
+            <div className="Js"></div>
+          </div>
         </article>
         <article>
-          <div className="db"></div>
+          <div className="db">
+            <span> Database</span>
+            <ul>
+              <li className="PostgreSQL"> </li>
+              <li className="Sequelize"> </li>
+              <li className="Prisma"> </li>
+            </ul>
+          </div>
         </article>
       </div>
 
