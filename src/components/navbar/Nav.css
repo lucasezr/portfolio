@@ -73,7 +73,6 @@
     
     .nav_items.open{
         transform: translateX(0) !important;
-        height: -webkit-fill-avalible;
     }
     .nav_toggle {
         display: flex !important;
