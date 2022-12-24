@@ -7,6 +7,7 @@ import About from "./pages/about/About";
 import Projects from "./pages/projects/Projects";
 import CarouselEducation from "./pages/education/Certificates";
 import contactForm from "./pages/contact/Contact_Form";
+import Skills from "./pages/skills/Skills";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Route exact path="/proyectos" element={<Projects />} />
         <Route exact path="/certificados" element={<About />} />
         <Route exact path="/contacto" element={<contactForm />} />
-        <Route exact path="/prueba" element={<CarouselEducation />} />
+        <Route exact path="/prueba" element={<Skills />} />
       </Routes>
     </div>
   );
