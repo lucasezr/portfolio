@@ -5,6 +5,7 @@ import About from "../about/About";
 import Projects from "../projects/Projects";
 import CarouselPjs from "../../components/carouselProjects/CarouselPjs";
 import CarouselEducation from "../education/Certificates.jsx";
+import Skills from "../skills/Skills";
 
 export default function home() {
   return (
@@ -13,6 +14,7 @@ export default function home() {
         <Nav />
 
         <About />
+        <Skills />
         <CarouselPjs />
         <CarouselEducation />
       </main>

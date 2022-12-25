@@ -18,7 +18,7 @@
     height: 800px;
 }
 
-.container {
+/* .container {
     height: 400px;
     width: 50vw;
     display: flex;
@@ -26,7 +26,7 @@
     align-items: center;
     flex-direction: column;
     perspective: 500px;
-}
+} */
 
 .conteiner {
     width: 100vw;
@@ -38,13 +38,97 @@
     perspective: 500px;
 }
 
+/*---------------- Start front styles ---------------------------*/
+.front-text {
+    font-size: 3rem;
+    color: antiquewhite;
+}
+
 .Front {
-    background-color: #39ac3b;
+    background-color: #242424;
     width: 500px;
     height: 800px;
 
 }
 
+.container-li-front {
+    /* background-color: red; */
+    height: 750px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    perspective: 100000px;
+    z-index: 200;
+}
+
+.container-react {
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.React-icon {
+    width: 120px;
+    height: 350px;
+    background-image: url(../../assets/img/react.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: drop-shadow(0px 7px 21px #32bbd6);
+    animation: rotar 5s linear infinite;
+    left: 30px;
+}
+
+.React-icon:hover {
+    cursor: pointer;
+}
+
+.react-text {
+    color: antiquewhite;
+    position: absolute;
+    right: 160px;
+}
+
+.bottom_part_react {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    bottom: -94px;
+    background: #242424;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111136;
+    transform: rotateX(80deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bottom: -50%; */
+    /* z-index: 600; */
+    left: 28px;
+    top: 62%
+}
+
+.bottom_part_react::before {
+    content: "";
+    width: 5rem;
+    height: 6rem;
+    position: absolute;
+    bottom: 4rem;
+    background: #32b7eb8f;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111136;
+    filter: blur(30px);
+}
+
+/* ------------------------------------------------------------------- */
 .db{
     background-color: #242424;
     width: 500px;
@@ -94,11 +178,45 @@
     left:30px;
 }
 
+.PostgreSQL-icon:hover {
+    cursor: pointer;
+}
 
 .PostgreSQL-text {
-   color: antiquewhite;
-   position: absolute;
-   right: 160px;
+    color: antiquewhite;
+    position: absolute;
+    right: 160px;
+}
+
+.bottom_part_1 {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    bottom: -94px;
+    background: #242424;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111136;
+    transform: rotateX(80deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bottom: -50%; */
+    /* z-index: 600; */
+    left: 28px;
+    top:62%
+    
+}
+
+.bottom_part_1::before {
+    content: "";
+    width: 5rem;
+    height: 6rem;
+    position: absolute;
+    bottom: 4rem;
+    background: #1ba2387c;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111136;
+    filter: blur(30px);
 }
 
 li{
@@ -127,13 +245,48 @@ li{
     position: absolute;
     filter: drop-shadow(0px 7px 21px #0fa7e4c7);
     animation: rotar 5s linear infinite;
-    left:30px;
+    left:35px;
+}
+
+
+.Sequelize-icon:hover {
+    cursor: pointer;
 }
 
 .sequelize-text{
     color: antiquewhite;
     position: absolute;
     right: 160px;
+}
+
+.bottom_part_2 {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    bottom: -94px;
+    background: #242424;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111136;
+    transform: rotateX(80deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bottom: -50%; */
+    /* z-index: 600; */
+    left: 35px;
+    top: 62%
+}
+
+.bottom_part_2::before {
+    content: "";
+    width: 5rem;
+    height: 6rem;
+    position: absolute;
+    bottom: 4rem;
+    background: #006baead;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111136;
+    filter: blur(30px);
 }
 
 .container-prisma {
@@ -164,10 +317,44 @@ li{
     position: absolute;
     filter: drop-shadow(0px 7px 21px #efeff0);
     animation: rotar 5s linear infinite;
-    left:30px;
+    left:35px;
 }
 
-.logo{
+.bottom_part_3 {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    bottom: -94px;
+    background: #242424;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111132;
+    transform: rotateX(80deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bottom: -50%; */
+    /* z-index: 600; */
+    left: 35px;
+    top: 62%
+}
+
+.bottom_part_3::before {
+    content: "";
+    width: 5rem;
+    height: 6rem;
+    position: absolute;
+    bottom: 4rem;
+    background: #a7a7a7a8;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111136;
+    filter: blur(30px);
+}
+
+.Prisma-icon:hover{
+    cursor: pointer;
+}
+
+/* .logo{
     width: 150px;
     height: 350px;
     background-image: url(../../assets/img/node.png);
@@ -179,11 +366,12 @@ li{
     filter: drop-shadow(0px 7px 21px #39ac3b);
     animation: rotar 5s linear infinite;
 
-}
+} */
 
-.logo:hover{
+/* .logo:hover{
     cursor: pointer;
-}
+} */
+
 
 @keyframes rotar {
     from {
