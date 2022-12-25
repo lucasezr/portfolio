@@ -12,6 +12,12 @@
     background-color: rgb(31, 31, 31);
 }
 
+.back {
+    background-color: red;
+    width: 500px;
+    height: 800px;
+}
+
 .container {
     height: 400px;
     width: 50vw;
@@ -22,12 +28,152 @@
     perspective: 500px;
 }
 
-.logo{
-    width: 300px;
+.conteiner {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    perspective: 500px;
+}
+
+.Front {
+    background-color: #39ac3b;
+    width: 500px;
+    height: 800px;
+
+}
+
+.db{
+    background-color: #242424;
+    width: 500px;
+    height: 800px;
+    
+}
+
+.database-text {
+    font-size: 3rem;
+    color: antiquewhite;
+}
+
+.container-li-db {
+    /* background-color: red; */
+    height: 750px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    perspective: 100000px;
+    z-index: 200;
+}
+
+.container-postgresql {
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    top:40px;
+    left:0;
+    align-items: center;
+    justify-content: center;
+}
+
+.PostgreSQL-icon {
+    width: 120px;
     height: 350px;
     background-image: url(../../assets/img/node.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: drop-shadow(0px 7px 21px #39ac3b);
+    animation: rotar 5s linear infinite;
+    left:30px;
+}
+
+
+.PostgreSQL-text {
+   color: antiquewhite;
+   position: absolute;
+   right: 160px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.container-sequelize{
+    /* background-color: rgba(1, 3, 4, 0.947); */
+    display: flex;
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sequelize-icon{
+    width: 120px;
+    height: 350px;
+    background-image: url(../../assets/img/sequelize.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: drop-shadow(0px 7px 21px #0fa7e4c7);
+    animation: rotar 5s linear infinite;
+    left:30px;
+}
+
+.sequelize-text{
+    color: antiquewhite;
+    position: absolute;
+    right: 160px;
+}
+
+.container-prisma {
+    /* background-color: rgba(0, 0, 0, 0.947); */
+    display: flex;
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    top: 65%;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.prisma-text {
+    color: antiquewhite;
+    position: absolute;
+    right: 160px;
+}
+
+.Prisma-icon {
+    width: 120px;
+    height: 350px;
+    background-image: url(../../assets/img/prisma.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: drop-shadow(0px 7px 21px #efeff0);
+    animation: rotar 5s linear infinite;
+    left:30px;
+}
+
+.logo{
+    width: 150px;
+    height: 350px;
+    background-image: url(../../assets/img/node.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     top: 10px;
     filter: drop-shadow(0px 7px 21px #39ac3b);
