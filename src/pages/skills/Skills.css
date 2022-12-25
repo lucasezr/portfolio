@@ -63,10 +63,13 @@
     z-index: 200;
 }
 
+
+/*---------------------  REACT -----------------------------------*/
+
 .container-react {
     /* background-color: rgb(0, 0, 0); */
     display: flex;
-    height: 200px;
+    height: 100px;
     width: 500px;
     position: absolute;
     top: 40px;
@@ -76,8 +79,8 @@
 }
 
 .React-icon {
-    width: 120px;
-    height: 350px;
+    width: 80px;
+    height: 320px;
     background-image: url(../../assets/img/react.png);
     background-position: center;
     background-size: contain;
@@ -85,7 +88,7 @@
     position: absolute;
     filter: drop-shadow(0px 7px 21px #32bbd6);
     animation: rotar 5s linear infinite;
-    left: 30px;
+    left: 35px;
 }
 
 .React-icon:hover {
@@ -99,8 +102,8 @@
 }
 
 .bottom_part_react {
-    width: 8rem;
-    height: 8rem;
+    width: 6rem;
+    height: 7rem;
     position: absolute;
     bottom: -94px;
     background: #242424;
@@ -118,17 +121,291 @@
 
 .bottom_part_react::before {
     content: "";
-    width: 5rem;
-    height: 6rem;
+    width: 3rem;
+    height: 4rem;
     position: absolute;
-    bottom: 4rem;
-    background: #32b7eb8f;
+    bottom: 3rem;
+    background: #3dcef6fa;
     border-radius: 50%;
     box-shadow: inset 0px 0px 10px 10px #11111136;
     filter: blur(30px);
 }
 
-/* ------------------------------------------------------------------- */
+/*---------------------------- REDUX -----------------------------*/
+
+.container-redux {
+    /* background-color: rgba(1, 3, 4, 0.947); */
+    display: flex;
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    top: 22%;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.Redux-icon {
+    width: 80px;
+    height: 320px;
+    background-image: url(../../assets/img/redux.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: drop-shadow(0px 7px 21px #9410f9e7);
+    animation: rotar 5s linear infinite;
+    left: 35px;
+}
+
+
+.Redux-icon:hover {
+    cursor: pointer;
+}
+
+.redux-text {
+    color: antiquewhite;
+    position: absolute;
+    right: 160px;
+}
+
+.bottom_part_Redux {
+    width: 6rem;
+    height: 7rem;
+    position: absolute;
+    bottom: -94px;
+    background: #242424;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111136;
+    transform: rotateX(80deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bottom: -50%; */
+    /* z-index: 600; */
+    left: 28px;
+    top: 62%
+}
+
+.bottom_part_Redux::before {
+    content: "";
+    width: 3rem;
+    height: 4rem;
+    position: absolute;
+    bottom: 3rem;
+    background: #9318ffcd;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111136;
+    filter: blur(30px);
+}
+
+
+/* ------------------------------ CSS ------------------------------------- */
+
+
+.container-CSS {
+    /* background-color: rgba(0, 0, 0, 0.947); */
+    display: flex;
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    top: 41%;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.css-text {
+    color: antiquewhite;
+    position: absolute;
+    right: 160px;
+}
+
+.CSS-icon {
+    width: 80px;
+    height: 320px;
+    background-image: url(../../assets/img/css.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: drop-shadow(0px 7px 21px #198af3);
+    animation: rotar 5s linear infinite;
+    left: 35px;
+}
+
+.CSS-icon:hover {
+    cursor: pointer;
+}
+
+.bottom_part_css {
+    width: 6rem;
+    height: 7rem;
+    position: absolute;
+    bottom: -94px;
+    background: #242424;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111132;
+    transform: rotateX(80deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bottom: -50%; */
+    /* z-index: 600; */
+    left: 28px;
+    top: 62%
+}
+
+.bottom_part_css::before {
+    content: "";
+    width: 3rem;
+    height: 4rem;
+    position: absolute;
+    bottom: 3rem;
+    background: #1490fdf5;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111136;
+    filter: blur(30px);
+}
+
+/* --------------------- HTML ----------------------------------------- */
+
+.container-html {
+    /* background-color: rgba(0, 0, 0, 0.947); */
+    display: flex;
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.HTML-icon {
+    width: 80px;
+    height: 320px;
+    background-image: url(../../assets/img/html.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: drop-shadow(0px 7px 21px #fd6f23);
+    animation: rotar 5s linear infinite;
+    left: 35px;
+}
+
+.html-text {
+    color: antiquewhite;
+    position: absolute;
+    right: 160px;
+}
+
+
+.HTML-icon:hover {
+    cursor: pointer;
+}
+
+.bottom_part_html {
+    width: 6rem;
+    height: 7rem;
+    position: absolute;
+    bottom: -94px;
+    background: #242424;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111132;
+    transform: rotateX(80deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bottom: -50%; */
+    /* z-index: 600; */
+    left: 28px;
+    top: 62%
+}
+
+.bottom_part_html::before {
+    content: "";
+    width: 3rem;
+    height: 4rem;
+    position: absolute;
+    bottom: 4rem;
+    background: #fd6d14e5;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111136;
+    filter: blur(30px);
+}
+
+/*----------------------------JAVASCRIPT------------------------------------*/
+
+.container-js {
+    /* background-color: rgba(0, 0, 0, 0.947); */
+    display: flex;
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    top: 78%;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.js-icon {
+    width: 55px;
+    height: 320px;
+    background-image: url(../../assets/img/js.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: drop-shadow(0px 7px 21px #fddc23);
+    animation: rotar 5s linear infinite;
+    left: 9.2%;
+}
+
+.js-text {
+    color: antiquewhite;
+    position: absolute;
+    right: 160px;
+}
+
+
+.js-icon:hover {
+    cursor: pointer;
+}
+
+.bottom_part_js {
+    width: 6rem;
+    height: 7rem;
+    position: absolute;
+    bottom: -94px;
+    background: #242424;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111132;
+    transform: rotateX(80deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bottom: -50%; */
+    /* z-index: 600; */
+    left: 28px;
+    top: 62%
+}
+
+.bottom_part_js::before {
+    content: "";
+    width: 3rem;
+    height: 4rem;
+    position: absolute;
+    bottom: 3rem;
+    background: #fde214e5;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111136;
+    filter: blur(30px);
+}
+
+/* --------------------- DB styles ----------------------------------------- */
+
 .db{
     background-color: #242424;
     width: 500px;
@@ -152,6 +429,9 @@
     perspective: 100000px;
     z-index: 200;
 }
+
+
+/* ------------------------- PostgreSQL --------------------------------- */
 
 .container-postgresql {
     /* background-color: rgb(0, 0, 0); */
@@ -222,7 +502,9 @@
 li{
     list-style-type: none;
 }
+/*----------------------------------------------------------------*/
 
+/*--------------------------  SEQUELIZE --------------------------*/
 .container-sequelize{
     /* background-color: rgba(1, 3, 4, 0.947); */
     display: flex;
@@ -289,6 +571,9 @@ li{
     filter: blur(30px);
 }
 
+/*----------------------------------------------------------------*/
+
+/*-----------------------  PRISMA --------------------------------*/
 .container-prisma {
     /* background-color: rgba(0, 0, 0, 0.947); */
     display: flex;
@@ -354,34 +639,6 @@ li{
     cursor: pointer;
 }
 
-/* .logo{
-    width: 150px;
-    height: 350px;
-    background-image: url(../../assets/img/node.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 10px;
-    filter: drop-shadow(0px 7px 21px #39ac3b);
-    animation: rotar 5s linear infinite;
-
-} */
-
-/* .logo:hover{
-    cursor: pointer;
-} */
-
-
-@keyframes rotar {
-    from {
-        transform: rotateY(180deg);
-    }
-    to{
-        transform: rotateY(-180deg);
-    }
-}
-
 .bottom_part {
     width: 20rem;
     height: 20rem;
@@ -407,4 +664,35 @@ li{
     border-radius: 50%;
     box-shadow: inset 0px 0px 10px 10px #11111136;
     filter: blur(30px);
+}
+
+/* .logo{
+    width: 150px;
+    height: 350px;
+    background-image: url(../../assets/img/node.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    filter: drop-shadow(0px 7px 21px #39ac3b);
+    animation: rotar 5s linear infinite;
+    
+} */
+
+/* .logo:hover{
+    cursor: pointer;
+} */
+
+
+
+
+/*-----------------------------------------------------------------------*/
+@keyframes rotar {
+    from {
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(-180deg);
+    }
 }

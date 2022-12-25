@@ -34,7 +34,7 @@ const skills = () => {
               </div>
               <div className="container-CSS">
                 <li className="CSS-icon"></li>
-                <span className="css-text"></span>
+                <span className="css-text">CSS</span>
                 <div className="bottom_part_css"></div>
               </div>
               <div className="container-html">
