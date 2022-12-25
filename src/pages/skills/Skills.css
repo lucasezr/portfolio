@@ -125,10 +125,10 @@
     height: 4rem;
     position: absolute;
     bottom: 3rem;
-    background: #3dcef6fa;
+    background: #3dcef6ca;
     border-radius: 50%;
     box-shadow: inset 0px 0px 10px 10px #11111136;
-    filter: blur(30px);
+    filter: blur(15px);
 }
 
 /*---------------------------- REDUX -----------------------------*/
@@ -193,10 +193,10 @@
     height: 4rem;
     position: absolute;
     bottom: 3rem;
-    background: #9318ffcd;
+    background: #9318ffaf;
     border-radius: 50%;
     box-shadow: inset 0px 0px 10px 10px #11111136;
-    filter: blur(30px);
+    filter: blur(15px);
 }
 
 
@@ -265,7 +265,7 @@
     background: #1490fdf5;
     border-radius: 50%;
     box-shadow: inset 0px 0px 10px 10px #11111136;
-    filter: blur(30px);
+    filter: blur(15px);
 }
 
 /* --------------------- HTML ----------------------------------------- */
@@ -333,7 +333,7 @@
     background: #fd6d14e5;
     border-radius: 50%;
     box-shadow: inset 0px 0px 10px 10px #11111136;
-    filter: blur(30px);
+    filter: blur(15px);
 }
 
 /*----------------------------JAVASCRIPT------------------------------------*/
@@ -401,7 +401,7 @@
     background: #fde214e5;
     border-radius: 50%;
     box-shadow: inset 0px 0px 10px 10px #11111136;
-    filter: blur(30px);
+    filter: blur(15px);
 }
 
 /* --------------------- DB styles ----------------------------------------- */
@@ -448,12 +448,12 @@
 .PostgreSQL-icon {
     width: 120px;
     height: 350px;
-    background-image: url(../../assets/img/node.png);
+    background-image: url(../../assets/img/postgres.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    filter: drop-shadow(0px 7px 21px #39ac3b);
+    filter: drop-shadow(0px 7px 21px #0b96d2);
     animation: rotar 5s linear infinite;
     left:30px;
 }
@@ -489,14 +489,14 @@
 
 .bottom_part_1::before {
     content: "";
-    width: 5rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
     position: absolute;
     bottom: 4rem;
-    background: #1ba2387c;
+    background: #219ddfbb;
     border-radius: 50%;
     box-shadow: inset 0px 0px 10px 10px #11111136;
-    filter: blur(30px);
+    filter: blur(28px);
 }
 
 li{
@@ -525,7 +525,7 @@ li{
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    filter: drop-shadow(0px 7px 21px #0fa7e4c7);
+    filter: drop-shadow(0px 7px 21px #08a9e9bc);
     animation: rotar 5s linear infinite;
     left:35px;
 }
@@ -561,14 +561,14 @@ li{
 
 .bottom_part_2::before {
     content: "";
-    width: 5rem;
-    height: 6rem;
+    width: 3rem;
+    height: 4rem;
     position: absolute;
     bottom: 4rem;
-    background: #006baead;
+    background: #1a99e3ca;
     border-radius: 50%;
     box-shadow: inset 0px 0px 10px 10px #11111136;
-    filter: blur(30px);
+    filter: blur(28px);
 }
 
 /*----------------------------------------------------------------*/
@@ -625,14 +625,14 @@ li{
 
 .bottom_part_3::before {
     content: "";
-    width: 5rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
     position: absolute;
     bottom: 4rem;
-    background: #a7a7a7a8;
+    background: #bbbbbbd8;
     border-radius: 50%;
     box-shadow: inset 0px 0px 10px 10px #11111136;
-    filter: blur(30px);
+    filter: blur(28px);
 }
 
 .Prisma-icon:hover{
