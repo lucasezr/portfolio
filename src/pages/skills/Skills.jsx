@@ -5,17 +5,22 @@ const skills = () => {
   return (
     <section className="section-skills">
       <div className="conteiner">
-        <article className="back">
-          <div className="back-cont">
-            <span>Back-End</span>
-            <div className="Nodejs">
-              {" "}
-              <span> NodeJS </span>
-            </div>
-            <div className="Express">
-              {" "}
-              <span> Express </span>
-            </div>
+        <article>
+          <div className="back">
+            <span className="back-text">Back-End</span>
+            <ul className="container-li-back">
+              <div className="container-node">
+                <li className="Node-icon"></li>
+                <span className="node-text"> Node Js </span>
+                <div className="bottom_part_node"></div>
+                <hr />
+              </div>
+              <div className="container-express">
+                <li className="Express-icon"></li>
+                <span className="express-text"> Express </span>
+                <div className="bottom_part_express"></div>
+              </div>
+            </ul>
           </div>
         </article>
         <article>
