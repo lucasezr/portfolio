@@ -37,16 +37,19 @@ const skills = () => {
                 <span className="redux-text">Redux</span>
                 <div className="bottom_part_Redux"></div>
               </div>
+
               <div className="container-CSS">
                 <li className="CSS-icon"></li>
                 <span className="css-text">CSS</span>
                 <div className="bottom_part_css"></div>
               </div>
+
               <div className="container-html">
                 <li className="HTML-icon"></li>
                 <span className="html-text">HTML</span>
                 <div className="bottom_part_html"></div>
               </div>
+
               <div className="container-js">
                 <li className="js-icon"></li>
                 <span className="js-text">Javascript</span>
