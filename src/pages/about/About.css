@@ -1,4 +1,7 @@
-
+.body {
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 .nav {
     background:none
@@ -13,14 +16,37 @@ h1{
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     
-    background-color: aquamarine;
+    
+    /* background-color: aquamarine; */
 }
 
+.cont-basic-info .name-career{
+    position: relative;
+    top:18%
+    
+}
+
+.cont-basic-info h1 {
+    font-size: 5rem;
+    
+}
+
+.cont-basic-info h3 {
+    font-size: 50px;
+}
+
+.cont-basic-info p {
+    position: relative;
+    top:28%
+}
+
+.description {
+    font-size: 2rem;
+}
 
 .half-second {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     width: 54vw;
     height: 100vh;
     display: flex;
@@ -32,4 +58,9 @@ h1{
     
     
 
+}
+
+.img-avatar img {
+    position: relative;
+    
 }

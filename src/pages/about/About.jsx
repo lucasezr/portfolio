@@ -11,24 +11,22 @@ const About = () => {
           <article className="article-info-basic">
             <div className="half-first">
               <div className="cont-basic-info">
-                <h1>Lucas Rodriguez</h1>
-                <h3>Desarrollador web Full Stack</h3>
-                <p className="">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maxime mollitia, molestiae quas vel sint commodi repudiandae
-                  consequuntur voluptatum laborum numquam blanditiis harum
-                  quisquam eius sed odit fugiat iusto fuga praesentium optio,
-                  eaque rerum! Provident similique accusantium nemo autem.
-                  Veritatis obcaecati tenetur iure eius earum ut molestias
-                  architecto voluptate aliquam nihil, eveniet aliquid culpa
-                  officia aut! Impedit sit sunt quaerat, odit, tenetur error,
-                  harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-                  quia. Quo neque error repudiandae fuga? Ipsa laudantium
-                  molestias eos sapiente officiis modi at sunt excepturi
-                  expedita sint? Sed quibusdam recusandae alias error harum
-                  maxime adipisci amet laborum. Perspiciatis minima nesciunt
-                  dolorem! Officiis iure rerum voluptates a cumque velit
-                  quibusdam sed amet tempora.
+                <div className="name-career">
+                  <h1>Lucas Rodriguez</h1>
+                  <h3>Desarrollador web Full Stack</h3>
+                </div>
+                <p className="description">
+                  Soy un Full Stack Developer orientado al Back End. Mi
+                  formación en el bootcamp Soy Henry me ha brindado las
+                  habilidades técnicas necesarias para desempeñarme con éxito en
+                  este campo, y mi interés en las ciencias de la computación y
+                  el marketing me permite tener una visión más amplia de cómo
+                  aplicar mis habilidades a proyectos de negocio. Además, tengo
+                  experiencia en trabajos grupales utilizando la metodología
+                  Scrum, y he participado en el desarrollo de ecommerce. Como
+                  emprendedor, también poseo un pensamiento estratégico y una
+                  capacidad de innovación que me permiten encontrar soluciones
+                  creativas a problemas técnicos y de negocio.
                 </p>
               </div>
             </div>
